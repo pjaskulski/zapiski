@@ -1,0 +1,59 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://01faea0e-1201-4ff2-bc0b-86816ad512c7",
+	"@type": "sc:Manifest",
+	"label": "Testowy manifest",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Testowy opis",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://78984d67-d6e3-46b4-92fa-59f49e875a5d",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://4898e96c-792a-49f8-b61a-e0180aa392e3",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3295,
+					"width": 2539,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d340f388-fb1e-40a6-b444-4fb1333f261d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://hcgis.biuro.wizipisi.pl/iiif/server/image-service/sgkp_t_15_2_10/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://hcgis.biuro.wizipisi.pl/iiif/server/image-service/sgkp_t_15_2_10",
+									"profile": "level2"
+								},
+								"height": 3295,
+								"width": 2539
+							},
+							"on": "http://4898e96c-792a-49f8-b61a-e0180aa392e3"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
